@@ -9,7 +9,7 @@
 %----------------------------------------------------------------------------------------
 
 % Data di approvazione del piano da parte del tutor interno; nel formato GG Mese AAAA
-% compilare inserendo al posto di GG 2 cifre per il giorno, e al posto di 
+% compilare inserendo al posto di GG 2 cifre per il giorno, e al posto di
 % AAAA 4 cifre per l'anno
 \newcommand{\dataApprovazione}{Data}
 
@@ -40,56 +40,75 @@
 \newcommand{\cognomeTutorInterno}{Vardanega}
 
 \newcommand{\prospettoSettimanale}{
-     % Personalizzare indicando in lista, i vari task settimana per settimana
-     % sostituire a XX il totale ore della settimana
+% Personalizzare indicando in lista, i vari task settimana per settimana
+% sostituire a XX il totale ore della settimana
+\begin{itemize}
+    \item \textbf{Prima Settimana (24/06/2024 - 28/06/2024, 34 ore)}
     \begin{itemize}
-        \item \textbf{Prima e Seconda Settimana (24/06/2024 - 28/06/2024, 01/07/2024 - 05/07/2024  68 ore)}
-        \begin{itemize}
-            \item On-boarding;
-            \item Presentazioni;
-            \item Introduzione ai concetti di gestionale;
-            \item Introduzione ai concetti di db;
-	 \item Introduzione ai concetti di machine learning;
-	 \item Introduzione ai concetti di grafi;
-	 \item Introduzione ai concetti di process mining;
-        \end{itemize}
-        \item \textbf{Terza, Quarta e Quinta Settimana - Studio interfacciamento con Celonis (08/07/2024 - 12/07/2024, 15/07/2024 - 19/07/2024 , 22/07/2024 - 26/07/2024  102 ore)} 
-        \begin{itemize}
-	 \item Studio della documentazione ufficiale e delle risorse online;
-            \item Studio delle caratteristiche chiave come analisi dei processi, visualizzazione dei dati, e automazione;
-	 \item Identificazione dei principali indicatori di prestazione e metriche utilizzate in Celonis;
-	 \item Studio dell'architettura della piattaforma Celonis;
-	 \item Analisi dei componenti principali;
-	 \item Studio del processo di estrazione, trasformazione e caricamento dei dati nella piattaforma Celonis;
-	 \item Creazione e gestione dei modelli di dati;
-	 \item Creazione e configurazione di dashboard e report;
-	 \item Applicazioni di machine learning e intelligenza artificiale in Celonis per migliorare l'analisi dei processi;
-	 \item Raccolta di best practices per un utilizzo efficace della piattaforma;
-        \end{itemize}
-        \item \textbf{Sesta, Settima, Ottava e Nona Settimana - Implementazione, Analisi e Ottimizzazione del Modello di Dati in Celonis (29/07/2024 - 02/08/2024, 05/08/2024 - 09/08/2024, 19/08/2024 - 23/08/2024, 26/08/2024 - 30/08/2024  136 ore)} 
-        \begin{itemize}
-	 \item Caricamento Dati e Affinamento
-	 \begin{itemize}
-		\item Estrarre i dati dai sistemi ERP e altre fonti;
-		\item Pulire e trasformare i dati per adattarli ai requisiti di Celonis;
-		\item Creare il modello di dati in Celonis;
-		\item Affinare il modello di dati per ottimizzare le analisi;
-		\item Caricare i dati nel modello di dati di Celonis;
-	 \end{itemize}
-	\newpage
-	 \item Analisi dei Risultati, Conclusioni e Sviluppi Futuri
-	 \begin{itemize}
-		\item Progettare i prototipi per la valutazione dei dati;
-	 	\item Generare dati simulati per l'istruzione dei modelli prototipo;
-	 	\item Istruire i modelli prototipo con i dati estratti o simulati;
-	 	\item Eseguire le analisi sui modelli prototipo;
-	 	\item Valutare i risultati delle analisi;
-	 	\item Correggere le criticità emerse e ripetere le analisi;
-	 	\item Documentare i risultati ottenuti e preparare una relazione;
-	 	\item Proporre possibili sviluppi futuri;
-	 \end{itemize}
-        \end{itemize}
+        \item Familiarizzazione con l'azienda e il team;
+        \item Partecipazione a presentazioni introduttive sui concetti di gestione aziendale, database, machine learning, grafi e process mining;
+        \item Studio del materiale fornito sul processo aziendale e sugli strumenti ERP utilizzati;
+        \item Inizio della documentazione sulle piattaforme di Process Mining e Data Mining.
     \end{itemize}
+
+    \item \textbf{Seconda Settimana (01/07/2024 - 05/07/2024, 34 ore)}
+    \begin{itemize}
+        \item Approfondimento sui concetti di machine learning applicati ai dati di processo;
+        \item Studio dei grafi e delle loro applicazioni nel process mining;
+        \item Ricerca e lettura di articoli e documenti sulle piattaforme di Process Mining (es. Celonis);
+        \item Preparazione di una relazione di sintesi sulle nozioni apprese, con particolare attenzione agli strumenti e alle tecniche di process mining.
+    \end{itemize}
+
+    \item \textbf{Terza Settimana (08/07/2024 - 12/07/2024, 34 ore)}
+    \begin{itemize}
+        \item Installazione e configurazione dell'ambiente di lavoro con Celonis;
+        \item Studio approfondito delle funzionalità di Celonis, con particolare attenzione all'interfacciamento con i database ERP;
+        \item Inizio della documentazione su come estrarre e caricare i dati in Celonis.
+    \end{itemize}
+
+    \item \textbf{Quarta Settimana (15/07/2024 - 19/07/2024, 34 ore)}
+    \begin{itemize}
+        \item Esercitazioni pratiche sull'estrazione di dati da un database ERP simulato e il caricamento degli stessi in Celonis;
+        \item Analisi dei dati caricati e comprensione delle principali metriche e KPI forniti dalla piattaforma;
+        \item Creazione di semplici dashboard in Celonis per visualizzare i flussi di processo.
+    \end{itemize}
+
+    \item \textbf{Quinta Settimana (22/07/2024 - 26/07/2024, 34 ore)}
+    \begin{itemize}
+        \item Approfondimento su tecniche avanzate di analisi dei dati con Celonis;
+        \item Creazione di report dettagliati sui processi aziendali, inclusi flussi di operazioni, tempi di attraversamento e identificazione di colli di bottiglia;
+        \item Discussione con il tutor dei risultati ottenuti e delle eventuali problematiche riscontrate.
+    \end{itemize}
+
+    \item \textbf{Sesta Settimana (29/07/2024 - 02/08/2024, 34 ore)}
+    \begin{itemize}
+        \item Caricamento di dati reali provenienti dall'ERP aziendale in Celonis;
+        \item Verifica e pulizia dei dati caricati per garantire la loro qualità e coerenza;
+        \item Inizio della creazione di modelli di processo basati sui dati reali.
+    \end{itemize}
+
+    \item \textbf{Settima Settimana (05/08/2024 - 09/08/2024, 34 ore)}
+    \begin{itemize}
+        \item Affinamento dei modelli di processo creati, con correzione di eventuali criticità riscontrate;
+        \item Inizio dell'analisi dettagliata dei risultati ottenuti dai modelli, con identificazione di inefficienze e punti di miglioramento;
+        \item Discussione con il tutor dei risultati intermedi e delle possibili correzioni da apportare.
+    \end{itemize}
+
+    \item \textbf{Ottava Settimana (19/08/2024 - 23/08/2024, 34 ore)}
+    \begin{itemize}
+        \item Ulteriore affinamento dei modelli e correzione delle criticità;
+        \item Creazione di report avanzati e dashboard interattive per la visualizzazione dei risultati;
+        \item Discussione dei risultati con il team, con particolare attenzione alle conclusioni preliminari e ai possibili sviluppi futuri.
+    \end{itemize}
+
+    \item \textbf{Nona Settimana (26/08/2024 - 30/08/2024, 34 ore)}
+    \begin{itemize}
+        \item Preparazione della relazione finale con una sintesi dettagliata dei risultati ottenuti;
+        \item Presentazione delle caratteristiche, pregi e difetti delle piattaforme utilizzate;
+        \item Conclusioni finali e suggerimenti per miglioramenti futuri;
+        \item Discussione con il tutor e il team delle competenze acquisite e delle prospettive di crescita futura.
+    \end{itemize}
+\end{itemize}
 }
 
 % Indicare il totale complessivo (deve essere compreso tra le 300 e le 320 ore)
@@ -97,19 +116,18 @@
 
 \newcommand{\obiettiviObbligatori}{
 	 \item \underline{\textit{O01}}: Acquisire conoscenze di base su sistemi gestionali, database, machine learning, grafi e process mining;
-	 \item \underline{\textit{O02}}: Approfondimento documentale delle piattaforme di Process Mining e Data Mining;
-	 \item \underline{\textit{O03}}: Comprendere l'interfacciamento con la piattaforma Celonis e altre eventuali piattaforme;
-	 \item \underline{\textit{O04}}: Caricamento dei dati estratti dall'ERP o generati ad-hoc;
-	 \item \underline{\textit{O05}}: Affinamento dei dati per adattarli ai requisiti delle piattaforme;
-	 \item \underline{\textit{O06}}: Analisi dei dati processati dalle piattaforme;
-	 \item \underline{\textit{O07}}: Interpretazione dei risultati con l'aiuto del tutor;
+	 \item \underline{\textit{O02}}: Approfondimento documentale delle piattaforme di Process Mining e Data Mining, con particolare attenzione a Celonis;
+	 \item \underline{\textit{O03}}: Installazione, configurazione e comprensione dell'interfacciamento con la piattaforma Celonis;
+	 \item \underline{\textit{O04}}: Estrarre e caricare dati dall'ERP aziendale o generati ad-hoc nelle piattaforme di Process Mining;
+	 \item \underline{\textit{O05}}: Pulizia e trasformazione dei dati per adattarli ai requisiti delle piattaforme;
+	 \item \underline{\textit{O06}}: Creare e affinare modelli di processo basati sui dati reali caricati nelle piattaforme;
+	 \item \underline{\textit{O07}}: Analisi dei dati processati dalle piattaforme e interpretazione dei risultati con l'aiuto del tutor;
 	 \item \underline{\textit{O08}}: Redigere una relazione finale con spiegazioni, osservazioni, pregi e difetti delle piattaforme utilizzate;
-	 \item \underline{\textit{O09}}: Proporre possibili sviluppi futuri;
-	 
+	 \item \underline{\textit{O09}}: Documentare i risultati ottenuti e proporre possibili sviluppi futuri basati sulle analisi effettuate;
 }
 
 \newcommand{\obiettiviDesiderabili}{
-	 \item \underline{\textit{D01}}: Identificare punti di inefficienza e possibili miglioramenti;
+	 \item \underline{\textit{D01}}: Identificare punti di inefficienza nei processi aziendali e suggerire possibili miglioramenti;
 	 \item \underline{\textit{D02}}: Misurare le performance delle piattaforme in termini di velocità di elaborazione, precisione dei risultati e usabilità;
 }
 
